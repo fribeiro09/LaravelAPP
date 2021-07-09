@@ -1,0 +1,20 @@
+label {
+    display: unset;
+}
+
+.mandatory {
+    color: red;
+    font-weight: 100;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #4c5b6d;
+    border-color: #4c5b6d;
+    box-shadow: none;
+}
+
+.minibtn {
+    width: 40px;
+}
+
