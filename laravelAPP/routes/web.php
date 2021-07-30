@@ -64,3 +64,5 @@ Route::get('/cache', function () {
 
     return "Cleared!";
 });
+
+Route::get('translator/{text}', 'TesteController@translator')->name('teste.teste');

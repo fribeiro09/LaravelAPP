@@ -104,6 +104,7 @@ class ReportController extends Controller
             ->orderBy('employee_name', 'asc')
             ->get();
 
+            $date = null;
             if ($request->filter_date_start) {
                 $date['start'] = $request->filter_date_start;
             }
